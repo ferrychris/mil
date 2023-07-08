@@ -15,7 +15,7 @@ closei.addEventListener('click', ()=>{
    openi.style.visibility="visible";
 
 })
-// Cart()=>
+
 var cartcount = 0;
 var realcartcount = document.querySelectorAll("cartcount")
 var addtocart = document.querySelectorAll("#addtocartbtn")
