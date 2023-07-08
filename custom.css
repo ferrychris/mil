@@ -1,0 +1,168 @@
+@media (max-width: 500px) {
+  
+  header{
+    display: none;
+    background-color: white;
+  }
+  #logo{
+   font-size: 20px;
+   line-height: 19px;
+   color: orangered;
+   visibility: visible;
+  }
+  marquee{
+    visibility: visible;
+    background-color: rgb(2, 47, 2);
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    z-index: 1;
+  }
+
+
+#icon{
+  display: flex;
+}
+#open{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  color: rgb(2, 47, 2);
+
+}
+#close{
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 120px;
+  color: black;
+}
+#section1{
+  display:grid;
+  margin-left: 10px;
+}
+#ultimatetext2{
+  margin-left: 55px;
+  font-size: 15px;
+  margin-top: 150px;
+  
+}
+#ultimatetext{
+  margin-top: 30px;
+  font-size: 33px;
+  line-height: 40px;
+  margin-left:80px;
+}
+#exporebtn {
+  background-color:  red;
+  color: white;
+  padding: 10px 15px;
+  border: 0px;
+  margin-left: 100px;
+  font-weight: bolder;
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: 1s;
+}
+  /* margin-right: -80px; *
+}
+#exporebtn{
+  padding: 10px 20px;
+  /* content: "Shop Now"; */
+
+
+/* Section 1 */
+/* #backgroundimgdiv{
+  margin-left: 10px;
+} */
+#backgroundimg{
+  display: none;
+}
+/* section2 */
+#fetureheaders{
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 20px;
+}
+#fetureheaders2{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+#featuredslideproducts{
+  margin-top: -10px;
+  columns: 2;
+  /* display: table-column; */
+}
+#prod{
+  width: 80px;
+  height: 90px;
+  position: relative;
+}
+#horizontalline{
+  width: 30px;
+  height: 2px;
+}
+
+h3{
+  font-size: 10px;
+}
+#addtocartbtn{
+  font-size: 10px;
+  padding: 5px 8px;
+}
+#price{
+  font-size: 9px;
+}
+#star{
+  width: 10px;
+  height: 10px;
+}
+/* section 4 */
+#section4{
+  margin-top: 50px;
+}
+
+/* Our Brand */
+#imagebrand{
+  /* margin: 0; */
+  display: inline-block;
+  /* justify-content:center; */
+}
+#brands{
+  width: 30px;
+  height: 30px;
+  /* margin-left: 600px; */
+}
+/* 
+.sect2{
+  margin-top: 40px;
+  margin-left: 80px;
+  font-size: 20px;
+} */
+
+/* section4 */
+#homeimagepreview{
+  margin: 40px;
+}
+#foot2{
+  margin-left: 10px;
+}
+#foot3{
+  margin-left: 10px;
+}
+
+.cartbtm{
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
+  position: fixed;
+}
+#floatingcarti{
+  position: fixed;
+  bottom: 0;
+  background-color: rgb(9, 6, 1);
+  border-radius: 50%;
+  cursor: pointer;
+} 
+}
