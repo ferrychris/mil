@@ -7,13 +7,13 @@
   #logo{
    font-size: 20px;
    line-height: 19px;
-   color: orangered;
+   color: orange-red;
    visibility: visible;
   }
   marquee{
     visibility: visible;
-    background-color: rgb(2, 47, 2);
-    color: rgb(255, 255, 255);
+    background-color: RGB(2, 47, 2);
+    color: RGB(255, 255, 255);
     font-weight: 200;
     z-index: 1;
   }
@@ -37,7 +37,7 @@
   color: black;
 }
 #section1{
-  display:grid;
+  display: grid;
   margin-left: 10px;
 }
 #ultimatetext2{
@@ -76,6 +76,8 @@
 } */
 #backgroundimg{
   display: none;
+  width: 50px;
+  height: 80px;
 }
 /* section2 */
 #fetureheaders{
